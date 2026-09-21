@@ -1,0 +1,4025 @@
+[
+  {
+    "text": "I can't sleep because my mind won't stop racing with worst-case scenarios.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Racing thoughts at night are exhausting. Try the 4-7-8 breathing technique: breathe in for 4, hold for 7, out for 8. Would you like more sleep hygiene tips?",
+    "nodes": [
+      "anxious",
+      "insomnia"
+    ],
+    "edges": [
+      [
+        "anxious",
+        "related_to",
+        "insomnia"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My daughter just graduated college and I'm bursting with pride!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "What an incredible milestone! Your pride is well-deserved. How did the ceremony go?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I don't see the point in trying anymore. Nothing ever works out.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "That hopelessness sounds overwhelming. Please reach out to the 988 Suicide & Crisis Lifeline or a mental health professional immediately. You deserve support.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "My coworker keeps undermining me in meetings and I'm livid.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "That workplace dynamic is toxic. Would you like help planning a conversation with your coworker or escalating to HR?",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I had the best coffee this morning and watched the sunrise.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Simple pleasures like that can set such a positive tone for the day. What made it special?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared I'll never overcome my social anxiety.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Recovery is possible with the right support. Exposure therapy and CBT are highly effective. Would you like help finding a therapist?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I feel guilty for taking a mental health day from work.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Your mental health is just as important as physical health. Taking care of yourself isn't selfish\u2014it's necessary.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My dog died yesterday and the house feels so empty.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Losing a pet is losing family. That grief is real and valid. Would you like to share a memory of them?",
+    "nodes": [
+      "depression",
+      "sadness",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "depression",
+        "related_to",
+        "sadness"
+      ],
+      [
+        "sadness",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I've been thinking about hurting myself to make the pain stop.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Please reach out for immediate help. Call 988 or go to your nearest emergency room. You deserve to be safe and supported through this pain.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I finally finished writing my novel after three years!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's an amazing accomplishment! Three years of dedication\u2014how does it feel to be done?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need advice on how to support my friend who's depressed.",
+    "intent": "help_seeking",
+    "emotion": "love",
+    "response": "Listen without judgment, check in regularly, and encourage professional help. Ask 'How can I support you?' rather than assuming.",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm worried I'm becoming addicted to my anxiety medication.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "That's a valid concern. Please discuss this with your prescribing doctor immediately\u2014they can assess and adjust your treatment safely.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My teenager won't talk to me anymore and I feel like I'm losing them.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Adolescence can create distance, but it's often temporary. Try creating low-pressure connection opportunities, like car rides or cooking together.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I got engaged last night and I can't stop looking at my ring!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Congratulations! That's such exciting news. How did they propose?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified of flying and have a work trip next week.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Flight anxiety is very common. Consider cognitive techniques and talk to your doctor about short-term anxiety relief options. Would you like specific coping strategies?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I relapsed after six months sober and I'm drowning in shame.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Relapse is part of recovery, not failure. Those six months matter. Please reach out to your sponsor or support group immediately.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My partner surprised me with breakfast in bed for no reason.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Those spontaneous gestures of love are so special. What a thoughtful way to start your day!",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I have a job interview tomorrow and I'm convinced I'll blow it.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "That's anxiety catastrophizing. Prepare your talking points, practice common questions, and remember: they invited you because you're qualified.",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I don't know who I am anymore after my divorce.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Divorce can shake your identity. This is a time for rediscovery. Would you like suggestions for reconnecting with yourself?",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm frustrated that my therapy isn't working fast enough.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "Healing isn't linear and takes time. Have you discussed your progress concerns with your therapist? They can adjust your treatment plan.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I made my grandma's recipe perfectly for the first time.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "What a meaningful achievement! Those family recipes carry so much love. I bet she'd be proud.",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm planning to end things tonight. I've written letters to everyone.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Please stop and call 988 right now. Your life has value, and this pain can be treated. Please reach out for emergency help immediately.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I think my child might have ADHD but I don't know how to get them evaluated.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Start with your pediatrician for a referral to a child psychologist or psychiatrist. Early evaluation and support can make a huge difference.",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My best friend and I reconciled after a year of not speaking.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That must feel like such a relief! Reconciliation takes courage from both sides. How did it happen?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry at myself for staying in a toxic relationship so long.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "Self-compassion is crucial here. Leaving takes enormous strength, and you did it. Focus on healing, not self-blame.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I feel like I'm watching my life from outside my body.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "That dissociation can be a trauma response. Please contact a mental health professional immediately\u2014this needs clinical support.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I got accepted into my dream graduate program!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's incredible! All your hard work paid off. When do you start?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried my depression is coming back after being stable for months.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Early recognition is powerful. Contact your therapist or psychiatrist now to adjust your treatment plan before it intensifies.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My parents don't accept that I'm gay and it's breaking my heart.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Their rejection is incredibly painful, but your identity is valid. Would you like resources for LGBTQ+ support groups or family counseling options?",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I saw a beautiful sunset tonight that made me feel peaceful.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Those moments of natural beauty can be so grounding. Did you take a moment to just breathe it in?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help telling my family about my mental illness diagnosis.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Choose a calm time, educate them about your diagnosis, and be clear about what support you need. Would you like help planning this conversation?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm exhausted from pretending I'm okay when I'm falling apart inside.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "That mask is heavy. Please reach out to a therapist or crisis line\u2014you don't have to perform wellness. You deserve authentic support.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "My nephew said I'm his favorite aunt and it melted my heart.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Those genuine moments with kids are pure gold. What a sweet compliment!",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared to start medication for my anxiety.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "That fear is normal. Discuss all your concerns with your psychiatrist\u2014they can explain benefits, side effects, and alternatives so you feel informed.",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I finally stood up to my controlling mother and I feel empowered.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Setting boundaries with parents is difficult but important. That took real courage. How did she respond?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm having intrusive thoughts about harming my baby and I'm terrified.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "This could be postpartum OCD or anxiety. Call your doctor immediately\u2014these thoughts are treatable and you deserve urgent support. You're not a bad parent.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I can't afford therapy and I don't know where to turn.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Try Open Path Collective, community mental health centers, or university training clinics that offer sliding scale fees. Would you like specific resources?",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I reconnected with an old friend and it feels like no time has passed.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Those rare friendships that pick up effortlessly are treasures. Enjoy rediscovering that connection!",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm furious that my insurance denied coverage for my therapy.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "Insurance denials are infuriating. You can appeal\u2014your therapist's office can usually help with documentation. Would you like guidance on the appeals process?",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I completed my first 5K race despite my chronic illness!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's an extraordinary achievement! You should be incredibly proud. How are you celebrating?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I feel numb and empty, like I'm just going through the motions.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Emotional numbness is a depression symptom that deserves attention. Have you talked to a mental health professional about what you're experiencing?",
+    "nodes": [
+      "depression",
+      "sadness"
+    ],
+    "edges": [
+      [
+        "depression",
+        "related_to",
+        "sadness"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My sister told me she's proud of me and I actually cried.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Words of affirmation from people we love can hit so deep. What a meaningful moment.",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared my partner will leave me if they see my scars.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Your scars are part of your survival story. A caring partner will see your strength. Would you like help planning this vulnerable conversation?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I stockpiled pills and I keep thinking about taking them all.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Please call 988 or go to an emergency room right now. Give those pills to someone safe or dispose of them. This is an emergency\u2014please get help immediately.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I adopted a rescue cat and she's already bringing me so much comfort.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Rescue animals seem to know when they've found their person. What's her name?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need strategies for managing my PTSD triggers at work.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Identify your specific triggers, create a grounding plan, and consider requesting workplace accommodations under ADA. Would you like specific grounding techniques?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm overwhelmed with gratitude for my support system today.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "What a beautiful feeling. Have you told them how much they mean to you?",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I think I'm having a nervous breakdown and I don't know what to do.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "If you're in acute crisis, please go to an emergency room or call 988. You need immediate professional assessment and support.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I finished my first therapy session and I already feel hopeful.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That first step is huge! It's wonderful that you connected with your therapist. How was the experience?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm struggling with body image after weight gain from my medication.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Medication side effects are frustrating. Talk to your doctor about alternatives, and consider working with a therapist on body image. Your worth isn't your weight.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My partner planned a whole day around my favorite things.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Being seen and celebrated like that is so special. Enjoy every minute of it!",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I had a panic attack at work and now I'm scared to go back.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "That fear of recurrence is common. Would you like help developing a workplace coping plan and communicating with your employer if needed?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I've been clean from self-harm for one year today.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "One year is a massive milestone! That strength and commitment deserve celebration. How are you marking this achievement?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified of being a burden on my family with my mental illness.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Your illness isn't your fault, and needing support doesn't make you a burden. Have you talked to your family about how you're feeling?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My garden is blooming and it brings me unexpected joy every morning.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Nurturing plants can be so therapeutic. What are you growing?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I want to die but I'm too scared to actually do it.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "That fear is protective. Please use it to reach out for help right now\u2014call 988 or a crisis line. These thoughts are symptoms that can be treated.",
+    "nodes": [
+      "anxiety",
+      "fear",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ],
+      [
+        "fear",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I need help coping with my parent's dementia diagnosis.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Anticipatory grief with dementia is profound. Consider joining a caregiver support group and therapy. Would you like resources specific to dementia caregiving?",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I laughed until I cried at dinner with friends tonight.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Those moments of pure joy with good company are healing. What a wonderful evening!",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry that people treat mental illness differently than physical illness.",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "That double standard is infuriating and harmful. Advocacy and education are slowly changing this, but the stigma is real.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried about how to handle the holidays with my toxic family.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Plan ahead: set time limits, have an exit strategy, and don't feel obligated to attend if it compromises your wellbeing. Your mental health comes first.",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My toddler said 'I love you' for the first time unprompted.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Those first spontaneous 'I love yous' are magical! What a heart-melting moment.",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared I'll never feel normal again after my trauma.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Trauma changes us, but healing is possible. Trauma-focused therapy can help you build a new normal. Would you like help finding a trauma specialist?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I set a healthy boundary and didn't apologize for it!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's growth! Boundaries without apology is powerful self-advocacy. How did it feel?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I can't stop having nightmares about my assault.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Trauma nightmares are a PTSD symptom. Image rehearsal therapy and EMDR can help. Please reach out to a trauma therapist who specializes in assault recovery.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I feel worthless and like everyone would be better off without me.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "These are depression's lies, not truth. Please reach out to 988 or a mental health crisis service immediately. Your life has inherent worth.",
+    "nodes": [
+      "depression",
+      "sadness"
+    ],
+    "edges": [
+      [
+        "depression",
+        "related_to",
+        "sadness"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I watched my son perform in his school play and I was beaming with pride.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Those proud parent moments are priceless! How did he do?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need advice on talking to my teenager about their depression.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Approach with curiosity not judgment, listen more than you talk, and don't minimize their feelings. Ask 'How can I help?' Would you like specific conversation starters?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I received an unexpected compliment that made my whole week.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Sometimes kindness from others reminds us of our worth. What did they say?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm struggling with the side effects of my new antidepressant.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Side effects are frustrating but often temporary. Contact your prescriber\u2014they can adjust dosage or try a different medication. Don't stop without medical guidance.",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I finally blocked my abusive ex on all platforms and I feel lighter.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's a powerful act of self-protection! Cutting off toxic access is brave. How are you feeling about it?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified of failing at my new job during probation.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Imposter syndrome is common in new roles. Focus on learning, ask questions, and remember they hired you for a reason. You're qualified.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I've been sober for 90 days and it gets easier every day.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "90 days is huge! That commitment to recovery is inspiring. What's been most helpful in your journey?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I feel guilty for taking medication for my mental health.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "You wouldn't feel guilty for taking insulin for diabetes. Mental health medication corrects a chemical imbalance\u2014it's healthcare, not weakness.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm cutting myself again after months of being clean.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Please reach out to your therapist, support system, or crisis line immediately. You've recovered before\u2014you can get back there with support.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "My friend sent me flowers just because and it made my day.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Random acts of friendship like that are so heartwarming. What a thoughtful gesture!",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help managing my anxiety about climate change.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Eco-anxiety is real. Balance staying informed with action and self-care. Channel worry into meaningful action within your control. Would you like coping strategies?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I completed a difficult project I'd been procrastinating on for weeks.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Breaking through procrastination feels so good! What helped you finally tackle it?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared my medication will change my personality.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Good medication treats symptoms without changing who you are. Communicate openly with your doctor about any personality changes you notice.",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I don't think I can handle one more thing going wrong.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "You're overwhelmed, and that's understandable. Please reach out to a therapist or crisis support\u2014you don't have to carry this alone.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "My partner and I celebrated 10 years together today.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "A decade together is beautiful! How are you celebrating this milestone?",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need strategies for managing work stress without burning out.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Set clear boundaries, take real breaks, prioritize tasks, and build in recovery time. What's your biggest stressor right now?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I saw a therapist who gets me for the first time in years.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Finding the right therapeutic fit is life-changing! That connection makes all the difference. How did you find them?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry that my family doesn't take my anxiety seriously.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "Being dismissed about your mental health is hurtful. Would you like help educating them or finding validation elsewhere while they catch up?",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm having thoughts about death constantly but I don't have a plan.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Passive suicidal ideation needs immediate attention. Please contact a mental health professional or crisis line today\u2014these thoughts are treatable symptoms.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I took a mental health day and actually rested instead of being productive.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's using your rest day intentionally! True rest is productive for your wellbeing. How did you spend it?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm struggling with loneliness after moving to a new city.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Building community takes time. Try joining groups around your interests, volunteering, or using apps like Meetup. Would you like specific suggestions?",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My neighbor left a kind note on my door that brightened my whole day.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Small acts of kindness can have such an impact. What did the note say?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified of being hospitalized for my mental health.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Hospitalization can be life-saving when you're in crisis. It's about stabilization and safety, not punishment. Would you like to know what to expect?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I finally asked for help and it wasn't as scary as I thought.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Asking for help is brave! That first step is often the hardest. How did it go?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I can't afford my medication and I don't know what to do.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Talk to your doctor about generic alternatives, patient assistance programs, or services like GoodRx. Don't stop your medication without medical guidance.",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm grateful for another day of waking up and choosing recovery.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That daily choice is powerful. Your commitment to recovery is inspiring. What's helping you stay motivated?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help managing my OCD compulsions that are taking over my life.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "ERP (Exposure and Response Prevention) therapy is highly effective for OCD. Please seek a therapist who specializes in this. Would you like help finding one?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I feel like I'm losing touch with reality and it's terrifying.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Dissociation or psychosis needs immediate evaluation. Please go to an emergency room or call 988 for crisis support right now.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I finished reading a book that changed my perspective on life.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Books that shift our worldview are special. What book was it, and what resonated with you?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried about how to tell my employer about my disability accommodation needs.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "You're protected under ADA. Request a private meeting with HR, bring documentation from your doctor, and be specific about what you need. Would you like help planning this?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I had a really good therapy session that gave me clarity.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Those breakthrough sessions feel so validating! What insights did you gain?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm frustrated that recovery isn't linear like I hoped.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "Recovery's ups and downs are normal, even though they're frustrating. Setbacks aren't failures\u2014they're part of the process. Be gentle with yourself.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I want to hurt myself when I feel rejected or abandoned.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Please reach out to your therapist or a crisis line immediately. These are intense emotions that need professional support to navigate safely.",
+    "nodes": [
+      "sadness",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "sadness",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I organized a beautiful space in my home and it brings me peace.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Creating peaceful environments supports mental health. Which space did you organize?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need coping skills for when I feel overwhelmed at work.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Try the STOP technique: Stop, Take a breath, Observe your feelings, Proceed mindfully. Also, short walks or stepping outside can help reset. What triggers your overwhelm?",
+    "nodes": [
+      "anxious",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "anxious",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I've been feeling genuinely happy lately and I'm scared it won't last.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Enjoy the happiness while it's here! Worrying about its end steals from the present. Practice gratitude for feeling good now.",
+    "nodes": [
+      "anxiety",
+      "joy"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "joy"
+      ]
+    ],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared people will judge me if they know about my mental illness.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Stigma is real, but you control your disclosure. Share only with safe people, and remember: their judgment reflects their ignorance, not your worth.",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I bought myself flowers because I deserve nice things.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Self-care and self-love in action! You absolutely deserve nice things. What flowers did you choose?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I relapsed into my eating disorder and I'm spiraling.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Please contact your treatment team, therapist, or the NEDA hotline immediately. Eating disorders are serious\u2014you need support to navigate this relapse safely.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I had a meaningful conversation with my parent for the first time in years.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Breakthrough moments in difficult relationships are profound. How did it feel to connect authentically?",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need advice on supporting my partner through depression without losing myself.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Set boundaries, maintain your own support system and self-care, and remember you can't fix them. Encourage their professional treatment. Would you like specific strategies?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I finally feel like I'm healing from my childhood trauma.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Healing from childhood trauma is profound work. You should be proud of how far you've come. What's been most helpful in your healing?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified of trying EMDR therapy for my trauma.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "EMDR can be intense but it's highly effective. Your therapist will go at your pace and teach you grounding first. Would you like to know what to expect?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I accomplished something small today but it felt huge given my depression.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "When you're depressed, 'small' victories are actually massive. You showed up for yourself. That counts for everything. What did you accomplish?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried I'm becoming dependent on my therapist.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Therapeutic relationships provide important support. Discuss this concern with your therapist\u2014dependency vs. healthy reliance is something they can help you navigate.",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I feel lighter after ending a friendship that was one-sided.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Letting go of unbalanced relationships creates space for healthier ones. That's self-respect in action. How are you feeling about the decision?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm having flashbacks of my trauma and I can't make them stop.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Flashbacks are frightening. Use grounding techniques (5-4-3-2-1 senses) and contact your trauma therapist immediately. If you're unsafe, go to an ER.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I practiced mindfulness meditation for the first time and actually felt calm.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Finding a practice that works for you is wonderful! That calm is always accessible. How long did you meditate?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "My anxiety is so bad I can't leave my house anymore.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Agoraphobia needs professional treatment. Please contact a therapist who specializes in anxiety disorders\u2014this level of avoidance requires clinical intervention.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I got a promotion at work and I'm celebrating tonight!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Congratulations! Your hard work is being recognized. How are you planning to celebrate?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried about telling my doctor I'm not taking my medication as prescribed.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Honesty with your doctor is crucial for effective treatment. They won't judge you\u2014they need accurate information to help you. Would you like help preparing for that conversation?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My baby smiled at me for the first time today.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Those first smiles are pure magic! What a beautiful milestone. Enjoy every second of these early days.",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm furious at my therapist for canceling our appointment last minute.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "That frustration is valid, especially when you're relying on that support. Have you considered bringing this up with them at your next session? The therapeutic relationship includes addressing ruptures.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I haven't left my bed in three days and I can't find the energy to care.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "This level of depression needs immediate attention. Please reach out to your mental health provider, a crisis line, or emergency services. You deserve support right now.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I tried a new hobby and discovered I actually enjoy painting!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Finding new creative outlets is wonderful for mental health! What are you painting?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help setting boundaries with my in-laws who constantly overstep.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "Boundaries with in-laws can be tricky. Be specific, united with your partner, and consistent. Would you like help scripting those conversations?",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I completed 30 days of journaling and I can see my progress!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Consistency is powerful! Journaling can reveal so much growth. What patterns have you noticed?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared to go to sleep because of my nightmares.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Chronic nightmares impact your quality of life. Image rehearsal therapy is very effective. Have you talked to a therapist about this?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I think I might be experiencing postpartum depression but I'm afraid to admit it.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "PPD is common and treatable\u2014it doesn't make you a bad parent. Please reach out to your OB or a mental health professional immediately. Early treatment is crucial.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My art was selected for a gallery showing!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's incredible recognition! Your creativity is being celebrated. When is the showing?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm struggling with the transition back to in-person work after remote.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "That adjustment is challenging for many. Gradual exposure, self-care, and communicating your needs can help. What aspect is most difficult?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I feel peaceful for the first time in months.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Savor that peace. You've worked hard to get here. What do you think contributed to this feeling?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified my partner will relapse and I don't know how to cope.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Loving someone in recovery brings unique anxieties. Al-Anon or therapy can help you process these fears and establish healthy boundaries. Would you like resources?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I haven't eaten in two days because my depression killed my appetite.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Not eating for days is dangerous. Please reach out to your doctor or mental health provider immediately. In the meantime, try small, easy foods and stay hydrated.",
+    "nodes": [
+      "sadness",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "sadness",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I woke up feeling grateful today, which is rare for me.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Those spontaneous moments of gratitude are gifts. What are you feeling grateful for?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help managing my anger before I say something I can't take back.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "Recognizing you need to pause is huge. Try the STOP technique or remove yourself from the situation. Would you like specific anger management strategies?",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My chronic pain is making me suicidal and I don't know what to do.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Chronic pain and mental health are deeply connected. Please call 988 immediately and talk to your pain management doctor about these feelings. You deserve comprehensive support.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I went to a social event despite my anxiety and I actually had fun!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's facing your fear and coming out victorious! How do you feel about the experience now?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried about my friend's mental health but don't know how to bring it up.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Express concern without judgment: 'I've noticed you seem different lately. Are you okay? I'm here to listen.' Would you like more conversation strategies?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I haven't had a panic attack in two months!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Two months is fantastic progress! What coping strategies have been most helpful?",
+    "nodes": [
+      "anxiety",
+      "joy"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "joy"
+      ]
+    ],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared to tell my religious family about my mental health struggles.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Faith communities sometimes misunderstand mental health. Frame it medically, share what support you need, and remember your health comes first. Would you like help planning this conversation?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I keep having violent intrusive thoughts and I'm terrified of myself.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Intrusive thoughts don't mean you'll act on them. This could be OCD or anxiety. Please contact a mental health professional immediately\u2014these thoughts are treatable.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "My spouse planned a surprise date night and it was perfect.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Those intentional moments of connection are so important. What made it special?",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need advice on managing holiday stress and family expectations.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Set realistic expectations, plan self-care breaks, and it's okay to decline events that compromise your wellbeing. What's your biggest stressor?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I received an award at work for my contributions this year.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Your hard work is being recognized! That validation feels wonderful. Congratulations!",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried my antidepressants are making me gain weight.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Weight changes are a common side effect. Talk to your prescriber about alternatives or strategies to manage this. Don't stop medication without medical guidance.",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I feel like I'm drowning and no one notices or cares.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "You're not invisible. Please reach out to a crisis line at 988 or a mental health professional. You deserve to be seen and supported.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I cooked a full meal for the first time in weeks.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's a meaningful accomplishment, especially when depression makes basic tasks hard. What did you make?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm struggling with intrusive memories from my childhood abuse.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Childhood abuse trauma needs specialized treatment. Trauma-focused CBT or EMDR with a qualified therapist can help. Would you like resources for finding a trauma specialist?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My child gave me a handmade card that said 'Best Mom Ever.'",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Those handmade expressions of love from kids are priceless treasures. What a sweet moment!",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry that it's taking so long to get a therapy appointment.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "The mental health system has serious access issues. While you wait, try crisis text lines, online therapy platforms, or support groups. Would you like alternative resources?",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I've been hearing voices telling me to hurt myself.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Please go to an emergency room immediately or call 988. Command hallucinations are a psychiatric emergency that needs immediate professional intervention.",
+    "nodes": [
+      "fear",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "fear",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I started a gratitude journal and it's shifting my perspective.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Gratitude practices rewire our brains toward positivity. What changes are you noticing?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help knowing when to hospitalize myself vs. wait it out.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Go to the ER if you have a plan to harm yourself, can't keep yourself safe, or have severe symptoms affecting functioning. When in doubt, err on the side of safety. Would you like to assess your current situation?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I ran my first mile without stopping!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's a huge physical and mental achievement! How do you feel?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared of the stigma if people at work find out about my hospitalization.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "You control your disclosure. Medical privacy laws protect you. Only share what you're comfortable with and what's necessary. Your health comes first.",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I binged and purged after being in recovery for months.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Contact your treatment team or the NEDA hotline immediately. Slips happen in recovery\u2014what matters is getting support right away to prevent a full relapse.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I had coffee with a friend I haven't seen in ages and it filled my cup.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Quality time with friends is soul-nourishing. Those connections matter so much for wellbeing.",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried about how to handle my ex and co-parenting while protecting my mental health.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Establish clear boundaries, use written communication when possible, and consider parallel parenting if co-parenting is too difficult. Would you like specific strategies?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I finished a mindfulness course and feel equipped with new tools.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Investing in your mental health toolkit is powerful! Which techniques resonated most with you?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified of being alone with my thoughts.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Avoidance of thoughts often intensifies them. Working with a therapist on sitting with discomfort can help. What are you most afraid will come up?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I can't stop thinking about the person who abused me and it's destroying me.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Trauma thoughts can be overwhelming. Please reach out to a trauma-specialized therapist or crisis line immediately. You deserve support processing this pain safely.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I volunteered today and helping others made me feel purposeful.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Service to others can be incredibly healing and grounding. What did you do?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help dealing with my guilt over past mistakes.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Guilt shows growth and empathy. Make amends where possible, learn from it, and practice self-forgiveness. Would you like strategies for releasing shame?",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I made it through a triggering situation without dissociating!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's huge progress! What grounding techniques helped you stay present?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared my depression is genetic and I'll pass it to my children.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "While there's genetic component, environment and early intervention matter enormously. You can model healthy coping and break cycles. Have you considered genetic counseling?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I cut myself and I need someone to know but I'm too ashamed to tell anyone I know.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "I'm glad you're reaching out. Please call a crisis line at 988 or text HOME to 741741. Treat your wounds and contact your therapist. You deserve compassionate support, not shame.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I watched the stars last night and felt connected to something bigger.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Those moments of cosmic perspective can be so grounding and awe-inspiring. What did it bring up for you?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need advice on managing seasonal affective disorder as winter approaches.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Get a light therapy box, maximize daylight exposure, maintain routines, and talk to your doctor about adjusting medication if needed. Would you like specific product recommendations?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I received a scholarship for graduate school!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's an amazing achievement! Your hard work and potential are being recognized. Congratulations!",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm frustrated that my partner doesn't understand my mental illness.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "Education can help. Share resources, invite them to a therapy session, or consider couples counseling. Would you like help facilitating this conversation?",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I haven't showered in a week and I know it's bad but I can't make myself do it.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Depression makes basic self-care incredibly hard. Can you do one small step? Even washing your face or changing clothes counts. Would you like tips for breaking tasks down?",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I finally cleaned my apartment after months of depression clutter.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's a monumental effort when you're depressed! How does your space feel now?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried about managing my bipolar disorder during pregnancy.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "This requires specialized care. Work closely with both your psychiatrist and OB-GYN to develop a treatment plan that protects both you and baby. Would you like resources for perinatal mental health?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "My daughter sent me a text saying she loves me out of the blue.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Those unexpected expressions of love from our kids hit so deep. What a beautiful message to receive!",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need strategies for managing my health anxiety that's become obsessive.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Health anxiety responds well to CBT and limiting reassurance-seeking behaviors. A therapist specializing in anxiety can help. Would you like immediate coping strategies?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I drove on the highway for the first time since my accident!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Facing that fear after trauma takes incredible courage! How did it feel?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared to taper off my medication even though my doctor says I'm ready.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "That fear is common. Tapering should be gradual with medical supervision. Communicate your concerns with your doctor\u2014they can adjust the plan to your comfort level.",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I drank alcohol while on my medication and now I'm panicking about the consequences.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Call poison control at 1-800-222-1222 or your doctor immediately if you're experiencing symptoms. Be honest about what you took and when. Don't wait if you feel unwell.",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I planted a garden and watching things grow brings me daily joy.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Gardening is therapeutic\u2014nurturing life while being present. What are you growing?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help with grounding techniques for when I dissociate.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Try 5-4-3-2-1 (name 5 things you see, 4 you touch, 3 you hear, 2 you smell, 1 you taste), hold ice, or splash cold water on your face. Would you like more techniques?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I reconciled with my estranged sibling after five years.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Family reconciliation is profound healing. How does it feel to have that relationship back?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry that society expects me to just 'get over' my trauma.",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "That minimization of trauma is infuriating and harmful. Healing is complex and takes time. Your experience is valid, regardless of others' ignorance.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I made it a full day without checking my locks obsessively.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Breaking that OCD compulsion pattern is huge! What helped you resist checking?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified of leaving my abusive relationship because I have nowhere to go.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Please call the National Domestic Violence Hotline at 1-800-799-7233. They can help with safety planning and resources. You deserve to be safe.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I baked cookies with my kids and the simple joy was everything.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Those everyday moments of connection and joy with kids are precious. What kind of cookies?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need advice on managing my anxiety about my child's safety without being overprotective.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Balance realistic safety measures with allowing age-appropriate independence. Consider therapy to process your anxiety separately from parenting. Would you like specific strategies?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I completed my first week at a new job despite my social anxiety!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's a major accomplishment! Starting new jobs is hard for everyone, but especially with social anxiety. How are you managing?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried about the cost of long-term therapy when I really need it.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Look into sliding scale therapists, Open Path Collective, community mental health centers, or online therapy platforms which can be more affordable. Would you like specific resources?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I feel broken beyond repair and like I'll never be normal.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "You're not broken\u2014you're struggling, and that's different. Please reach out to a mental health professional or crisis line. Healing is possible even when it doesn't feel like it.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I received a heartfelt thank you from someone I helped months ago.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Knowing your impact mattered to someone is so affirming. What a meaningful moment!",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help knowing if my drinking has become a problem.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Ask yourself: Does it interfere with responsibilities? Do you drink to cope? Have others expressed concern? If yes, consider talking to a doctor or addiction counselor. Would you like resources?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I attended my first support group meeting and felt understood for the first time.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Finding your people who truly get it is powerful! That sense of belonging matters so much. Will you go back?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared my partner will leave me because of my mental illness.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Your mental illness is part of your experience, not your worth. A loving partner will support your healing. Have you talked to them about this fear?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I've planned how I would kill myself and it scares me that I feel calm about it.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Please call 988 or go to an emergency room immediately. Having a plan is a medical emergency. You need immediate intervention and safety.",
+    "nodes": [
+      "sadness",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "sadness",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I watched the sunset with my partner in comfortable silence.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Comfortable silence with someone you love is intimacy at its finest. What a peaceful moment.",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need advice on telling my kids about my mental illness in age-appropriate ways.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Be honest but simple, reassure them it's not their fault, and normalize mental health. Age matters\u2014would you like specific language for different ages?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I hit six months of consistent therapy and I can see real changes!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Six months of consistent work is huge! That commitment to yourself is paying off. What changes are you noticing?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm frustrated that people say 'just think positive' when I have clinical depression.",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "That toxic positivity dismisses real illness. You can't think your way out of a chemical imbalance. Your frustration is completely valid.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I overdosed but I survived and now I don't know what to do.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Please go to an emergency room immediately even if you feel okay\u2014some overdose effects are delayed. You deserve medical and psychiatric care right now.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I received unexpected flowers from my partner just because.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Those random acts of love and thoughtfulness are so special. How sweet!",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help managing caregiver burnout while caring for my parent with dementia.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Caregiver burnout is real and serious. Accept help, use respite care, join support groups, and consider therapy. You can't pour from an empty cup. Would you like specific resources?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I finished physical therapy after my surgery and rang the bell!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Completing rehabilitation takes dedication and perseverance! Congratulations on your hard work paying off!",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried about managing my mental health while going through menopause.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Hormonal changes significantly impact mental health. Work with both your gynecologist and mental health provider. HRT and medication adjustments can help. Would you like resources?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I deleted all my social media and my mental health immediately improved.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Social media breaks can be incredibly beneficial! What changes are you noticing?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared to get close to people because everyone eventually leaves.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "That fear of abandonment is often rooted in past experiences. Therapy can help heal attachment wounds. Would you like to explore what's behind this fear?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm actively planning my suicide and researching methods.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Please call 988 immediately or go to the nearest emergency room. You are in crisis and need immediate help. Please don't act on this\u2014reach out right now.",
+    "nodes": [
+      "sadness",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "sadness",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I had a lazy Sunday with no guilt about being unproductive.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Rest without guilt is self-care mastery! How did you spend your day?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need strategies for managing my perfectionism that's causing me burnout.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Perfectionism is often anxiety-driven. Practice 'good enough,' self-compassion, and examine where these standards came from. Would you like specific techniques?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I celebrated my transplant anniversary and I'm grateful to be alive.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "What a profound milestone! Your gratitude and the gift of life are beautiful. How are you celebrating?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry that my workplace has no mental health accommodations.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "You're protected under ADA. Document your needs, get medical documentation, and formally request accommodations through HR. Would you like help with this process?",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I haven't self-harmed in six months despite really wanting to today.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Resisting urges is incredibly hard but you did it! What coping skills helped you get through today?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified my trauma has damaged me so much I can't have healthy relationships.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Trauma impacts relationships but healing allows for healthy connection. Trauma therapy can help you build secure attachment. You're not too damaged\u2014you're healing.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I think I'm being emotionally abused but I'm not sure if I'm overreacting.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Trust your instincts. Emotional abuse is real and serious. Call the National Domestic Violence Hotline at 1-800-799-7233 to talk it through safely.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I successfully advocated for myself at a doctor's appointment!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Medical self-advocacy is powerful, especially when you're used to people-pleasing! What did you ask for?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help managing my ADHD without medication because I can't afford it.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Behavioral strategies can help: external structure, timers, body doubling, exercise, and ADHD coaching. Would you like specific techniques? Also explore patient assistance programs for medication.",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I received a handwritten letter from my best friend and it made me cry happy tears.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Handwritten letters in this digital age are so meaningful! That thoughtfulness and effort is beautiful.",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried about how to manage my child's mental health crisis.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "If they're in immediate danger, call 988 or go to an ER. For urgent but not emergency situations, contact their therapist or pediatrician. What's happening?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I stood up to my bully at work and reported them to HR.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That took real courage! Workplace bullying is serious and you deserve a safe environment. How did HR respond?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared of trying ketamine therapy for my treatment-resistant depression.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Ketamine therapy can be effective for treatment-resistant depression. Research the provider thoroughly, understand the process, and discuss all concerns with your psychiatrist. Would you like to know what to expect?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I feel like ending my life is the only way to escape my pain.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Your pain is real but suicide is a permanent solution to temporary problems that can be treated. Please call 988 right now. You deserve help navigating this pain.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I took my first solo trip and it was empowering!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Solo travel can be incredibly transformative! Where did you go and what did you discover?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need advice on supporting my partner through suicidal ideation without sacrificing my own mental health.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Set clear boundaries, ensure they have professional help, create a safety plan together, and maintain your own therapy/support. You can't be their only lifeline. Would you like specific strategies?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I got a puppy and the unconditional love is healing something in me.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Pets can be incredibly therapeutic! That bond and routine can be so healing. What kind of puppy?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm frustrated that I have to keep explaining my boundaries to the same people.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "Consistent boundary violations mean you need to enforce consequences, not just repeat boundaries. Would you like help with boundary enforcement?",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I made it through the anniversary of my trauma without falling apart.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Anniversary reactions are real and painful. Getting through it is strength. How did you take care of yourself?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried my teenager is self-harming but they won't talk to me.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Approach with concern not accusation, express love, and get them professional help immediately. Don't try to be their therapist. Would you like conversation starters?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm scared to start DBT therapy because everyone says it's intense.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "DBT is intensive but incredibly effective for emotion regulation. The skills are practical and life-changing. Your therapist will pace it appropriately. Would you like to know what to expect?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I went a full week without a single anxiety attack!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "A full week is amazing progress! What strategies or changes contributed to this?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help managing the grief of losing my identity after becoming disabled.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Disability grief is profound and valid. You're mourning your previous life while building a new identity. Therapy and disability community support can help. Would you like resources?",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I organized a mental health awareness event at my workplace!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That advocacy work is so important! You're creating space for others to seek help. How did it go?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry that my family blames my 'negative attitude' instead of recognizing my depression.",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "That misunderstanding of mental illness is hurtful and stigmatizing. Your depression isn't a choice or attitude problem. Your anger is valid.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I tested positive for substances and I'm terrified of losing custody of my kids.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Get into treatment immediately and consult a family law attorney. Proactive treatment shows the court you're serious about recovery. Would you like addiction treatment resources?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I had a breakthrough realization in therapy that explained so much.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Those lightbulb moments in therapy are powerful! When things click into place, it can be transformative. What did you realize?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need strategies for managing my chronic illness alongside my mental health.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Chronic illness and mental health are deeply connected. Integrated care, support groups, pacing, and treating both equally is crucial. What's your biggest challenge?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I successfully used a coping skill in the moment instead of after the fact!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Using skills in real-time is the goal! That's progress in action. Which skill did you use?",
+    "nodes": [
+      "joy",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "joy",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified of getting older and being alone because of my mental illness.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Mental illness doesn't doom you to isolation. Treatment, community, and self-compassion create connection. What's driving this fear specifically?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I've lost all hope and I'm giving up on treatment.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Treatment-resistant doesn't mean hopeless. Please talk to your provider about other options before giving up. Call 988 if you're in crisis. New treatments emerge constantly.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I decluttered my space and my mind feels clearer too.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "External environment impacts internal state! That connection is real. How does your space feel now?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help managing my anxiety about my child leaving for college.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Empty nest anxiety is common. This transition affects everyone. Focus on your own identity beyond parenting and stay connected differently. Would you like coping strategies?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I completed a creative project I'd abandoned during my depressive episode!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Returning to creativity after depression is meaningful! That energy returning is a good sign. What did you create?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried about managing my mental health during a major life transition.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Life transitions stress even stable mental health. Increase support, maintain routines where possible, and be gentle with yourself. What's the transition?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I feel genuine happiness today for no particular reason.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Spontaneous contentment is a gift! Just being can be enough. Savor this feeling.",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared to have children because of my family's history of mental illness.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Genetics is one factor among many. Your awareness means you can break cycles through early intervention and modeling healthy coping. Consider genetic counseling to make an informed decision.",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm researching suicide methods and saving articles about it.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "This is active suicidal planning. Please call 988, go to an ER, or tell someone who can help you stay safe immediately. This is an emergency.",
+    "nodes": [
+      "sadness",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "sadness",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I treated myself to something special just because I deserve it.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Recognizing your own worth and treating yourself kindly is beautiful self-love! What did you do?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need advice on managing therapy costs when sessions aren't enough but I can't afford more.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Ask about sliding scale, less frequent but longer sessions, group therapy, or supplementing with workbooks and support groups. Would you like specific resources?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I had an honest conversation with my parents about my childhood for the first time.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That vulnerability and truth-telling is brave! How did it go?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry that I have to fight so hard for basic mental health care.",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "The mental health care system is broken and that's not your fault. Your anger at systemic failures is completely justified.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I practiced self-compassion instead of self-criticism today!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That's rewiring your brain toward kindness! Self-compassion is a skill that gets stronger with practice. What did you say to yourself?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified of the side effects of ECT even though my doctor recommends it.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "ECT has evolved significantly. Modern ECT is safe and effective for treatment-resistant depression. Ask your doctor about all side effects, success rates, and what to expect. Make an informed decision.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I gave away my method for suicide because I realized I want to live.",
+    "intent": "crisis",
+    "emotion": "joy",
+    "response": "That's an enormous step toward choosing life! Please still reach out to your mental health provider or crisis support to process this and build a safety plan.",
+    "nodes": [
+      "joy",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "joy",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I connected with nature today and felt genuinely peaceful.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Nature exposure is proven to benefit mental health. That peace is restorative. Where did you go?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help knowing if my social anxiety is bad enough for medication.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "If anxiety significantly impairs your daily functioning, relationships, or quality of life, discuss medication with a psychiatrist. Therapy and medication together are most effective.",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I surprised my partner with something thoughtful and their joy made my day.",
+    "intent": "general",
+    "emotion": "love",
+    "response": "Giving joy to people we love is its own reward! What a sweet gesture. What did you do?",
+    "nodes": [
+      "love"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried about disclosing my mental illness on disability applications.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Be thorough and honest about how your illness impairs functioning. Get detailed documentation from providers. Consider a disability attorney. Would you like application tips?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I achieved a personal goal I set six months ago!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Setting and achieving goals shows hope and perseverance! That's something to celebrate. What was your goal?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm frustrated that healing isn't linear and I keep having setbacks.",
+    "intent": "help_seeking",
+    "emotion": "anger",
+    "response": "Setbacks are part of the process, not failures. Progress isn't erased by hard days. Zoom out\u2014compare yourself to months ago, not yesterday. Be patient with your journey.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I let myself cry instead of pushing the emotions down.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Allowing yourself to feel emotions rather than suppress them is healthy emotional processing! How do you feel after letting it out?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared my trauma therapy is making things worse because I feel more pain now.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Trauma work often gets harder before it gets better\u2014you're processing what was buried. Talk to your therapist about pacing. This discomfort usually means you're healing. Are you feeling unsafe?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm actively planning to hurt someone who hurt me.",
+    "intent": "crisis",
+    "emotion": "anger",
+    "response": "Please call 988 or a mental health crisis line immediately. These thoughts need professional intervention before anyone gets hurt. Violence won't heal your pain.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I tried a new restaurant by myself and enjoyed my own company.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Enjoying solitude is a sign of healthy self-relationship! That's lovely. How was the food?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need strategies for managing anticipatory anxiety about future events.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Stay present using mindfulness, prepare reasonably but don't over-plan, and challenge catastrophic thinking. What event is causing anxiety?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I received recognition at work that validated all my hard work.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "External validation feels wonderful, especially when you've worked hard! Let yourself enjoy this recognition. What was it for?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry that people expect me to be 'fixed' by now.",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "Mental health isn't a broken bone with a clear healing timeline. People's impatience with your process is their issue, not yours. Your pace is valid.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I maintained my boundaries even when people made me feel guilty!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Holding boundaries despite guilt-tripping is advanced boundary work! That's real growth. How did you stay firm?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified of becoming like my mentally ill parent who hurt me.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Your awareness and commitment to treatment means you're already breaking that cycle. Therapy can help you process this fear and parent differently. You're not destined to repeat their patterns.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm experiencing severe withdrawal from my medication that I stopped abruptly.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Call your prescriber immediately or go to urgent care if they're unavailable. Abrupt cessation can be dangerous. Don't wait\u2014you need medical supervision right now.",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I reached out to someone I've been thinking about and they were happy to hear from me.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Taking that risk to reach out and being received warmly is wonderful! Connection is healing.",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help managing my fear of medication dependency.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Dependency and addiction are different. Most psych meds aren't addictive. Discuss your concerns with your doctor\u2014they can explain how your medication works. What medication are you concerned about?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I started a creative project just for joy, not productivity.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Creating for pure enjoyment without productivity pressure is rare and valuable! What are you making?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried I'm too damaged for therapy to help.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "No one is too damaged for therapy. It might take time to find the right therapist and modality, but healing is possible. What makes you feel too damaged?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I've been sober for one year today and I'm proud of myself.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "One year is a monumental achievement! That's 365 days of choosing recovery. How are you celebrating this incredible milestone?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared to tell my new partner about my mental health history.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Share when you feel safe, at your own pace. Their reaction will tell you a lot. You deserve someone who accepts all of you. Would you like help planning this conversation?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I want to hurt myself to feel something because I'm so numb.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Please reach out to your therapist or call a crisis line immediately. Numbness is painful but there are safer ways to feel. You need support right now.",
+    "nodes": [
+      "sadness",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "sadness",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I found a support group where I feel truly understood.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Finding your community where you're understood without explanation is powerful healing! What type of group is it?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need advice on managing my mental health while going through a divorce.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Divorce is traumatic even when it's right. Increase therapy, lean on support, practice self-care, and get legal/financial help. Don't navigate this alone. What's most overwhelming right now?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I completed a workout even though my depression made it feel impossible.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Moving your body despite depression is a victory! Even gentle movement helps brain chemistry. How do you feel after?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry that society stigmatizes medication for mental health.",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "Medication stigma is ignorant and harmful. You wouldn't shame someone for taking blood pressure medication. Your anger at this double standard is justified.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I celebrated a small win instead of dismissing it!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Acknowledging small wins rewires your brain toward noticing good things! What was your win?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified I'll be on medication for the rest of my life.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Some people need long-term medication and that's okay\u2014it keeps them well. Others taper off eventually. Focus on wellness now, not hypothetical future. Would talking about this fear help?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm hearing voices telling me to kill myself and they're getting louder.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Command hallucinations are a psychiatric emergency. Please go to an emergency room immediately or call 988. You need crisis intervention right now for your safety.",
+    "nodes": [
+      "fear",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "fear",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I had a phone call with a friend that left me feeling energized instead of drained.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Relationships that energize rather than deplete are treasures! Those are the connections to nurture.",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help managing my perfectionism in recovery that's stressing me out.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Perfectionism in recovery is counterproductive\u2014progress isn't linear. Practice self-compassion and 'good enough' recovery. Slip-ups are part of healing. Would you like specific strategies?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I learned something new about myself in therapy that shifted everything.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Those paradigm-shifting insights are why therapy works! Self-understanding creates change. What did you learn?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm frustrated that exercise and nutrition advice feels dismissive of my mental illness.",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "You're right\u2014'just exercise' isn't treatment for mental illness. Lifestyle factors help but aren't cures. Your frustration with that oversimplification is valid.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I said no to something without over-explaining or apologizing!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "No is a complete sentence! Not over-explaining is powerful boundary-setting. How did it feel?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared that my kid inherited my mental illness and it's my fault.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Genetics isn't fault. If they have mental illness, your experience means you can recognize it early and get them help. You're an asset, not a liability. Are they showing symptoms?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I've written a suicide note and I'm ready to go through with it.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Please call 988 right now or go to the nearest emergency room. Give your plan to someone safe. This is an emergency\u2014please reach out immediately before you act.",
+    "nodes": [
+      "sadness",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "sadness",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I woke up feeling rested for the first time in months.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Quality sleep is so restorative! When you've been exhausted, waking rested feels miraculous. What changed?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need strategies for managing my guilt about my mental illness affecting my family.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Your illness isn't your fault. Focus on treatment and communication rather than guilt. Your family loves you through this. Have you talked to them about your guilt?",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I tried a new coping skill and it actually worked!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Finding tools that work for you is empowering! Add it to your toolbox. Which skill was it?",
+    "nodes": [
+      "joy",
+      "self_harm"
+    ],
+    "edges": [
+      [
+        "joy",
+        "related_to",
+        "self_harm"
+      ]
+    ],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry that I have to constantly educate people about my mental illness.",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "That emotional labor is exhausting. You don't owe everyone education. Save your energy for people who deserve it and want to understand.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I forgave myself for something I've carried shame about for years.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Self-forgiveness is profound healing work! Releasing shame creates space for growth. How does it feel?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified that I'm a burden on my therapist.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "You're not a burden\u2014you're a client receiving care they're trained and paid to provide. If you're worried, discuss it with them. This is a common concern. Are you projecting other relationships onto this one?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm cutting off my family's access to me because of abuse and I need support.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Leaving abusive family is brave and necessary. Create a safety plan, build alternative support, and consider therapy. This is self-preservation. Would you like resources for family estrangement?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I had a moment of pure contentment while drinking my morning coffee.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Mindful presence in simple moments is a practice! That contentment is always available. Beautiful.",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help knowing when to increase my therapy frequency vs. tough it out.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "If you're in crisis, struggling to function, or feeling worse, increase frequency. 'Toughing it out' often makes things harder. Trust your instincts. What's happening?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I stood up for myself in a conflict without being aggressive!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Assertiveness without aggression is a skill! That balance is hard to achieve. How did the other person respond?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm worried that my medications interact poorly but my doctors won't listen.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Get a second opinion, use a medication interaction checker, or see a pharmacist who can review everything. Patient advocacy matters. Don't ignore your instincts.",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I experienced joy today without waiting for the other shoe to drop.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Trusting good feelings without bracing for disaster is healing! Being present in joy is practice. How did that feel?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared my mental illness makes me unlovable.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Your mental illness is one part of you, not your worth. Many people with mental illness have loving relationships. You deserve love. What makes you feel unlovable?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm planning to stop eating to punish myself.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "Please contact a mental health professional, crisis line, or your medical provider immediately. Self-punishment through starvation is dangerous and needs intervention now.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I took a day off work just for my mental health without guilt.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Mental health days without guilt is growth! Taking care of yourself prevents bigger problems. How did you spend it?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help managing the shame I feel about being in therapy.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Therapy is healthcare, not something to be ashamed of. Working on yourself is strength. Where does this shame come from?",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I completed a month of medication compliance even though I hate taking pills!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Consistency with medication when you resist it shows real commitment to your wellness! What helped you stay on track?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry that mental health care is so expensive and inaccessible.",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "The cost of mental healthcare is a systemic failure. Your anger about this inequality is justified and shared by many.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I noticed a negative thought pattern and interrupted it!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Catching and redirecting thoughts in real-time is advanced mindfulness! That awareness is powerful. What did you do?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified of what I might remember if I do trauma therapy.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Trauma therapists go at your pace and teach grounding first. You won't be forced to remember before you're ready. The fear itself might be worth exploring in therapy. Would you like to know more about what to expect?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I overdosed on purpose and I regret it but I'm scared to get help.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Please go to an emergency room right now even if you're scared. Medical complications can be delayed. You need immediate medical evaluation. Don't wait\u2014go now.",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "high"
+  },
+  {
+    "text": "I enjoyed a hobby again for the first time since my depression started.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Interest and pleasure returning is a sign your depression is lifting! That's real progress. What hobby?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need advice on whether to disclose my mental illness to a potential employer.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "You're not required to disclose unless you need accommodations. Consider company culture and whether disclosure benefits you. You're protected by ADA. What's making you consider disclosure?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I survived a difficult day and I'm proud of myself for getting through it.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Survival is success on hard days! Acknowledge your resilience. You made it through. What helped you cope?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm frustrated that people expect me to be grateful for 'at least' having therapy access.",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "Having access doesn't negate the struggle or mean you can't want better. Your frustration with toxic positivity is valid.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I processed a difficult emotion in a healthy way instead of avoiding it!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Sitting with discomfort rather than escaping it is emotional maturity! That's not easy. What emotion and how did you process it?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared my partner will use my mental illness against me in our custody battle.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Document your treatment compliance, get letters from providers about your parenting capability, and get a good family attorney. Mental illness alone doesn't determine custody. Would you like legal resources?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I want to cut myself but I'm reaching out instead.",
+    "intent": "crisis",
+    "emotion": "sadness",
+    "response": "I'm proud of you for reaching out instead of acting on the urge. Please call your therapist, a crisis line, or a safe person right now. Use your coping skills. You can get through this urge.",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I had a meaningful spiritual experience that brought me peace.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Spiritual connection can be deeply healing, whatever form it takes for you. What was the experience?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help managing medical trauma from previous psychiatric treatment.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Medical trauma is real and impacts future care. A trauma-informed therapist can help you process this and rebuild trust. What happened?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I finally found a medication that works without horrible side effects!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Finding the right medication fit is often trial and error\u2014you persevered! That relief is wonderful. How long have you been on it?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry that people dismiss my pain because I 'seem fine.'",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "High-functioning depression is still depression. Seeming fine doesn't invalidate your struggle. Your anger at being dismissed is justified.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I advocated for a treatment change and my doctor actually listened!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Being heard in medical settings is validating! Patient advocacy works. What changed?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified of hospitalization because of past traumatic experiences in psych wards.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Psychiatric hospitalization trauma is real. If you need crisis care, you can request a specific facility, bring an advocate, or try crisis respite centers as an alternative. Would you like to explore options?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I called a hotline instead of acting on my suicidal thoughts.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Reaching out in crisis is strength and courage! You chose life in that moment. That matters enormously. How are you feeling now?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I created a safety plan for when I'm in crisis.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Proactive crisis planning is wise self-care! Having a plan reduces panic during crisis. What did you include?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help knowing if I should switch therapists or keep trying with my current one.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Therapeutic fit matters. If you've communicated concerns and nothing changes, or you feel unheard/unsafe, switching is okay. How long have you been working together and what's not working?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I felt connected to humanity today in a way I haven't in years.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "That sense of connection and belonging is beautiful! Depression isolates us from that feeling. Cherish it.",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm frustrated that society expects instant forgiveness when someone apologizes for harming me.",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "Forgiveness isn't owed and healing takes time. You get to process harm at your own pace. Your frustration with pressure to forgive is valid.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I identified a trigger and removed myself from the situation proactively!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Prevention is powerful! Recognizing triggers and protecting yourself shows growth. What was the trigger?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm scared my anxiety disorder will prevent me from traveling like I've always dreamed.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Anxiety doesn't have to stop you from traveling with preparation and coping tools. Start small, plan carefully, and bring support. Many anxious people travel successfully. Would you like travel-specific anxiety strategies?",
+    "nodes": [
+      "anxiety",
+      "fear"
+    ],
+    "edges": [
+      [
+        "anxiety",
+        "related_to",
+        "fear"
+      ]
+    ],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm being cyber-stalked by someone and it's affecting my mental health badly.",
+    "intent": "crisis",
+    "emotion": "fear",
+    "response": "Document everything and report to police and platforms immediately. This is harassment. Consider a restraining order and changing your digital security. Would you like cyber-safety resources?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I felt genuine pride in myself today without immediately minimizing it.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Accepting and owning your accomplishments is healthy self-esteem! Not deflecting praise is growth. What are you proud of?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need help managing my mental health while caring for a newborn.",
+    "intent": "help_seeking",
+    "emotion": "anxious",
+    "response": "Postpartum mental health is crucial. Accept help, screen for PPD/PPA, maintain treatment, and don't try to be perfect. Would you like postpartum-specific resources?",
+    "nodes": [
+      "anxious"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I completed a full week of self-care without feeling selfish!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Self-care without guilt is the goal! You can't pour from empty. What did your self-care look like?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm angry that my mental illness is used to invalidate my legitimate feelings.",
+    "intent": "general",
+    "emotion": "anger",
+    "response": "Gaslighting using your mental illness is manipulative and harmful. Your diagnosis doesn't make your feelings invalid. Your anger is appropriate.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I communicated a need clearly and directly without apologizing!",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Direct communication about needs is confident and healthy! Not apologizing for needs is powerful. How was it received?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I'm terrified of the long-term effects of my psychiatric medications on my body.",
+    "intent": "help_seeking",
+    "emotion": "fear",
+    "response": "Discuss monitoring and long-term effects with your doctor. Many meds are safe long-term with regular check-ups. Weigh benefits against risks with your provider. What specific medications concern you?",
+    "nodes": [
+      "fear"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I'm actively planning violence and I know I need help before I act.",
+    "intent": "crisis",
+    "emotion": "anger",
+    "response": "Thank you for recognizing you need help. Call 988 or go to an ER immediately. This needs crisis intervention right now before anyone gets hurt. Please reach out immediately.",
+    "nodes": [
+      "anger"
+    ],
+    "edges": [],
+    "risk_label": "high"
+  },
+  {
+    "text": "I witnessed a beautiful random act of kindness today that restored my faith.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "Witnessing kindness reminds us of human goodness! Those moments matter. What did you see?",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  },
+  {
+    "text": "I need advice on how to build a support system when I've isolated for years.",
+    "intent": "help_seeking",
+    "emotion": "sadness",
+    "response": "Start small: support groups, online communities, volunteering, classes, or therapy groups. Rebuilding takes time. Would you like specific suggestions for your interests?",
+    "nodes": [
+      "sadness"
+    ],
+    "edges": [],
+    "risk_label": "medium"
+  },
+  {
+    "text": "I made it through today, and that's enough.",
+    "intent": "general",
+    "emotion": "joy",
+    "response": "On some days, survival is victory. You made it. Tomorrow is a new day. Rest now.",
+    "nodes": [
+      "joy"
+    ],
+    "edges": [],
+    "risk_label": "low"
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "suicide_related": {
+    "direct_statements": [
+      "i want to end everything",
+      "i want to die",
+      "i’m ready to die",
+      "i don’t want to live anymore",
+      "i want to kill myself",
+      "i should kill myself",
+      "i’m going to end it",
+      "i can’t do this anymore"
+    ],
+    "passive_ideation": [
+      "i don’t see a point anymore",
+      "i wish i wasn’t here",
+      "i feel like disappearing",
+      "i don’t want to wake up",
+      "i’m tired of everything",
+      "i’ve had enough of life",
+      "i don’t belong here",
+      "i feel like nothing",
+      "i have no purpose",
+      "i don’t matter",
+      "i am worthless",
+      "i don’t deserve to live"
+    ],
+    "planning_indicators": [
+      "i’m planning to end it",
+      "i know how i would do it",
+      "i’ve been thinking about how",
+      "i’m looking for a way out",
+      "i can’t fight this anymore"
+    ]
+  },
+  "self_harm": [
+    "i want to hurt myself",
+    "i feel like cutting",
+    "i might do something bad",
+    "i’m scared i’ll hurt myself",
+    "i feel like breaking down"
+  ],
+  "hopelessness": [
+    "i feel hopeless",
+    "there’s no hope",
+    "nothing will get better",
+    "i’m losing hope",
+    "i feel defeated",
+    "i’m done fighting",
+    "i can’t keep going"
+  ],
+  "burden_isolation": [
+    "i’m a burden to everyone",
+    "people would be happier without me",
+    "nobody would notice if i disappeared",
+    "i’m completely alone",
+    "no one cares about me"
+  ],
+  "numbness_empty": [
+    "i feel empty",
+    "i feel nothing",
+    "i feel dead inside",
+    "i feel numb",
+    "i feel hollow"
+  ]
+}

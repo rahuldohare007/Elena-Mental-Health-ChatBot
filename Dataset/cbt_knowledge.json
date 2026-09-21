@@ -1,0 +1,288 @@
+[
+  {
+    "technique": "Cognitive Restructuring",
+    "description": "Identify and challenge negative thoughts",
+    "steps": [
+      "Identify negative thought",
+      "Challenge evidence",
+      "Replace with balanced thought"
+    ]
+  },
+  {
+    "technique": "Deep Breathing",
+    "description": "Reduce anxiety through controlled breathing",
+    "steps": ["Inhale slowly", "Hold breath briefly", "Exhale gently"]
+  },
+  {
+    "technique": "Thought Recording",
+    "description": "Track negative thoughts and patterns",
+    "steps": [
+      "Write triggering situation",
+      "Note automatic thoughts",
+      "Evaluate and reframe"
+    ]
+  },
+  {
+    "technique": "Behavioral Activation",
+    "description": "Increase engagement in positive activities",
+    "steps": [
+      "List enjoyable activities",
+      "Schedule activities",
+      "Reflect on mood changes"
+    ]
+  },
+  {
+    "technique": "Exposure Therapy",
+    "description": "Gradual exposure to fears",
+    "steps": [
+      "List fears",
+      "Start with least scary",
+      "Gradually increase exposure"
+    ]
+  },
+  {
+    "technique": "Mindfulness Practice",
+    "description": "Focus on present moment awareness",
+    "steps": [
+      "Observe surroundings",
+      "Notice thoughts without judgment",
+      "Return focus to present"
+    ]
+  },
+  {
+    "technique": "Gratitude Journaling",
+    "description": "Shift focus to positive aspects of life",
+    "steps": [
+      "Write 3 things you're grateful for",
+      "Reflect on why",
+      "Repeat daily"
+    ]
+  },
+  {
+    "technique": "Self-Compassion",
+    "description": "Be kind to yourself during distress",
+    "steps": ["Acknowledge pain", "Avoid self-criticism", "Offer self-kindness"]
+  },
+  {
+    "technique": "Problem Solving",
+    "description": "Break down problems into manageable steps",
+    "steps": ["Define problem", "Brainstorm solutions", "Choose best option"]
+  },
+  {
+    "technique": "Positive Affirmations",
+    "description": "Replace negative beliefs with positive ones",
+    "steps": [
+      "Identify negative belief",
+      "Create positive statement",
+      "Repeat daily"
+    ]
+  },
+
+  {
+    "technique": "Grounding Technique",
+    "description": "Reduce anxiety by focusing on senses",
+    "steps": ["Name 5 things you see", "4 things you feel", "3 things you hear"]
+  },
+  {
+    "technique": "Body Scan",
+    "description": "Relax body through awareness",
+    "steps": ["Focus on feet", "Move attention upward", "Release tension"]
+  },
+  {
+    "technique": "Emotion Labeling",
+    "description": "Identify and name emotions",
+    "steps": ["Pause", "Identify feeling", "Label emotion clearly"]
+  },
+  {
+    "technique": "Opposite Action",
+    "description": "Act opposite to negative urges",
+    "steps": ["Identify urge", "Choose opposite action", "Execute behavior"]
+  },
+  {
+    "technique": "Journaling",
+    "description": "Express thoughts through writing",
+    "steps": ["Write freely", "Reflect on emotions", "Identify patterns"]
+  },
+  {
+    "technique": "Visualization",
+    "description": "Imagine calming scenes",
+    "steps": ["Close eyes", "Picture peaceful place", "Engage senses"]
+  },
+  {
+    "technique": "Thought Defusion",
+    "description": "Detach from negative thoughts",
+    "steps": ["Notice thought", "Label it as thought", "Let it pass"]
+  },
+  {
+    "technique": "Stress Inoculation",
+    "description": "Prepare for stressful situations",
+    "steps": ["Identify stressor", "Plan coping strategy", "Practice response"]
+  },
+  {
+    "technique": "Time Management",
+    "description": "Reduce stress by organizing tasks",
+    "steps": ["List tasks", "Prioritize", "Schedule time"]
+  },
+  {
+    "technique": "Goal Setting",
+    "description": "Set achievable goals",
+    "steps": ["Define goal", "Break into steps", "Track progress"]
+  },
+
+  {
+    "technique": "Relaxation Training",
+    "description": "Reduce physical tension",
+    "steps": ["Tense muscles", "Release slowly", "Repeat"]
+  },
+  {
+    "technique": "Cognitive Defusion",
+    "description": "Separate from thoughts",
+    "steps": ["Notice thought", "Say I'm having this thought", "Let it go"]
+  },
+  {
+    "technique": "Behavioral Experiment",
+    "description": "Test beliefs through actions",
+    "steps": ["Identify belief", "Test it", "Evaluate outcome"]
+  },
+  {
+    "technique": "Social Skills Training",
+    "description": "Improve interaction skills",
+    "steps": ["Practice communication", "Role-play", "Apply in real life"]
+  },
+  {
+    "technique": "Assertiveness Training",
+    "description": "Express needs confidently",
+    "steps": ["Identify needs", "Use I statements", "Practice delivery"]
+  },
+  {
+    "technique": "Mood Tracking",
+    "description": "Monitor emotional patterns",
+    "steps": ["Record mood daily", "Note triggers", "Analyze patterns"]
+  },
+  {
+    "technique": "Sleep Hygiene",
+    "description": "Improve sleep quality",
+    "steps": ["Maintain routine", "Limit screens", "Create calm environment"]
+  },
+  {
+    "technique": "Self-Monitoring",
+    "description": "Track behaviors and thoughts",
+    "steps": ["Observe behavior", "Record it", "Review patterns"]
+  },
+  {
+    "technique": "Coping Statements",
+    "description": "Use positive self-talk",
+    "steps": ["Identify stressor", "Create statement", "Repeat during stress"]
+  },
+  {
+    "technique": "Mindful Walking",
+    "description": "Focus on walking sensations",
+    "steps": ["Walk slowly", "Notice steps", "Focus on breathing"]
+  },
+
+  {
+    "technique": "Acceptance",
+    "description": "Accept emotions without resistance",
+    "steps": ["Notice feeling", "Allow it", "Avoid judgment"]
+  },
+  {
+    "technique": "Distraction Technique",
+    "description": "Shift attention from distress",
+    "steps": ["Identify distress", "Choose activity", "Engage fully"]
+  },
+  {
+    "technique": "Perspective Taking",
+    "description": "View situation differently",
+    "steps": [
+      "Identify viewpoint",
+      "Consider alternatives",
+      "Adopt balanced view"
+    ]
+  },
+  {
+    "technique": "Value Clarification",
+    "description": "Identify personal values",
+    "steps": ["List values", "Prioritize", "Align actions"]
+  },
+  {
+    "technique": "Self-Reward",
+    "description": "Reinforce positive behavior",
+    "steps": ["Set goal", "Achieve task", "Reward yourself"]
+  },
+  {
+    "technique": "Anchoring",
+    "description": "Associate calm with cue",
+    "steps": ["Choose anchor", "Relax deeply", "Repeat pairing"]
+  },
+  {
+    "technique": "Thought Stopping",
+    "description": "Interrupt negative thoughts",
+    "steps": ["Notice thought", "Say stop", "Shift focus"]
+  },
+  {
+    "technique": "Daily Reflection",
+    "description": "Review daily experiences",
+    "steps": ["Recall day", "Note positives", "Learn from negatives"]
+  },
+  {
+    "technique": "Breathing Counting",
+    "description": "Focus on breath count",
+    "steps": ["Inhale", "Count exhale", "Repeat cycle"]
+  },
+  {
+    "technique": "Self-Validation",
+    "description": "Acknowledge feelings",
+    "steps": ["Recognize feeling", "Accept it", "Normalize experience"]
+  },
+
+  {
+    "technique": "Progressive Relaxation",
+    "description": "Relax muscles step by step",
+    "steps": ["Start from toes", "Tense muscles", "Release upward"]
+  },
+  {
+    "technique": "Positive Visualization",
+    "description": "Visualize success outcomes",
+    "steps": ["Close eyes", "Imagine success", "Feel emotions"]
+  },
+  {
+    "technique": "Cognitive Reframing",
+    "description": "Change perspective on events",
+    "steps": ["Identify thought", "Challenge it", "Reframe positively"]
+  },
+  {
+    "technique": "Micro Goals",
+    "description": "Break tasks into tiny steps",
+    "steps": ["Choose task", "Break into small parts", "Complete one at a time"]
+  },
+  {
+    "technique": "Energy Check",
+    "description": "Monitor mental energy",
+    "steps": ["Pause", "Rate energy", "Adjust activity"]
+  },
+  {
+    "technique": "Mental Noting",
+    "description": "Label thoughts quickly",
+    "steps": ["Notice thought", "Label it", "Move on"]
+  },
+  {
+    "technique": "Focus Reset",
+    "description": "Refocus attention",
+    "steps": ["Pause", "Take breath", "Restart task"]
+  },
+  {
+    "technique": "Safe Place Imagery",
+    "description": "Imagine safe environment",
+    "steps": ["Close eyes", "Visualize safe place", "Engage senses"]
+  },
+  {
+    "technique": "Confidence Recall",
+    "description": "Recall past success",
+    "steps": ["Think of success", "Relive moment", "Apply confidence"]
+  },
+  {
+    "technique": "Habit Stacking",
+    "description": "Build habits on existing ones",
+    "steps": ["Identify habit", "Add new action", "Repeat consistently"]
+  }
+]
