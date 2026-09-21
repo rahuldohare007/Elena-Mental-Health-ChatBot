@@ -345,7 +345,7 @@ mental_health_chatbot/
 │       └── dynamic_graph_builder.py
 │
 ├── README.md
-└── ANLP_ChatBot(Project)FinalBossFightWin.ipynb
+└── Elena_ChatBot.ipynb
 ```
 
 ---
